@@ -1,0 +1,28 @@
+{
+    "name": "akshyaraait/school-service",
+    "description": "'Service Provider for Akshyaraa School application'",
+    "type": "library",
+    "require": {
+        "akshyaraait/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AkshyaraaIt",
+            "email": "support@akshyaraait.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AkshyaraaIt\\SchoolService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AkshyaraaIt\\SchoolService\\AkshyaraaItSchoolServiceProvider"
+            ]
+        }
+    }
+}
